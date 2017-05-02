@@ -166,10 +166,11 @@
             <div class="jumbotron vertical-center">
                 <div class="row bgimg">
                     <div class="col-sm-3 col-md-3">  
-                        <img src="<%=DropboxController.getUrl(usuario.getFoto())%>" class="img-circle" alt="Cinque Terre" width="150" height="150">
+                        <img src="<%=DropboxController.getUrl(usuario.getFoto())%>" class="img-circle" alt="User Image" width="150" height="150">
                     </div>
                     <div class="col-sm-9 col-md-9">
-                        <%                if (usuario.getNombre() != null || usuario.getApellidos() != null) {
+                        <%                
+                            if (usuario.getNombre() != null || usuario.getApellidos() != null) {
                         %>
                         <h3><%= usuario.getNombre() + " " + usuario.getApellidos()%></h3>
                         <%
