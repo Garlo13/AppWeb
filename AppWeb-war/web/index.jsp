@@ -198,7 +198,7 @@
                                     }
                                 %>
                                 <%
-                                    if (usuario.getWeb() != null && usuario.getWeb().equals("")) {
+                                    if (usuario.getWeb() != null && !usuario.getWeb().equals("")) {
                                 %>
                             <a href="http://<%= usuario.getWeb()%>"target="_blank"><i class="fa fa-link fa-lg"></i></a>
                                 <%
