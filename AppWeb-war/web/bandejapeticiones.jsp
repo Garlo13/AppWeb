@@ -1,7 +1,7 @@
 <%-- 
     Document   : bandejapeticiones
     Created on : 26-abr-2017, 12:22:42
-    Author     : adri_
+    Author     : Adrián Cardenas, Adrián García, Daniel Lopez, David Luque, John Carlo Purihin
 --%>
 
 <%@page import="java.util.List"%>

@@ -1,7 +1,7 @@
 <%-- 
     Document   : bandejaEntrada
     Created on : 22-abr-2017, 11:37:22
-    Author     : david
+    Author     : Adrián Cardenas, Adrián García, Daniel Lopez, David Luque, John Carlo Purihin
 --%>
 
 <%@page import="appweb.entity.DatosUsuario"%>

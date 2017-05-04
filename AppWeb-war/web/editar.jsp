@@ -1,7 +1,7 @@
 <%-- 
     Document   : registrar
     Created on : 21-abr-2017, 10:40:16
-    Author     : david?
+    Author     : Adrián Cardenas, Adrián García, Daniel Lopez, David Luque, John Carlo Purihin
 --%>
 
 <%@page import="java.math.BigDecimal"%>

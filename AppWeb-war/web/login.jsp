@@ -1,7 +1,7 @@
 <%-- 
     Document   : login
     Created on : 03-abr-2017, 9:56:56
-    Author     : Adrián
+    Author     : Adrián Cardenas, Adrián García, Daniel Lopez, David Luque, John Carlo Purihin
 --%>
 
 <%@page import="appweb.entity.DatosUsuario"%>

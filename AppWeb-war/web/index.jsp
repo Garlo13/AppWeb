@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : 24-abr-2017, 19:06:45
-    Author     : adri_
+    Author     : Adrián Cardenas, Adrián García, Daniel Lopez, David Luque, John Carlo Purihin
 --%>
 
 <%@page import="dropbox.DropboxController"%>

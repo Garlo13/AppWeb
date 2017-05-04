@@ -2,6 +2,8 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+
+Author     : Adrián Cardenas, Adrián García, Daniel Lopez, David Luque, John Carlo Purihin
  */
 package appweb.servlet;
 
@@ -34,8 +36,6 @@ public class ServletBorrarAficion extends HttpServlet {
     @EJB
     private AficionFacade aficionFacade;
 
-    
-    
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -52,7 +52,7 @@ public class ServletBorrarAficion extends HttpServlet {
         aficionID = request.getParameter("idAficion");
         aficion = this.aficionFacade.find(new BigDecimal(aficionID));
         HttpSession session = request.getSession();
-        DatosUsuario usuario = (DatosUsuario)session.getAttribute("usuario");
+        DatosUsuario usuario = (DatosUsuario) session.getAttribute("usuario");
         Collection c = usuario.getAficionCollection();
         c.remove(aficion);
         usuario.setAficionCollection(c);
